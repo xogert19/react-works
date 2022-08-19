@@ -1,0 +1,37 @@
+.Button {
+  cursor: pointer;
+
+  font-size: 32px;
+
+  border: 1px solid black;
+  border-collapse: collapse;
+  outline: none;
+}
+
+@media screen and (max-width: 320px) {
+  .Button {
+    font-size: 24px;
+  }
+}
+
+.orange {
+  background-color: orange;
+}
+
+.orange:hover {
+  background-color: rgb(131, 91, 17);
+  color: white;
+}
+
+.grey {
+  background-color: rgb(185, 185, 185);
+}
+
+.grey:hover {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.span-two {
+  grid-column: span 2;
+}
