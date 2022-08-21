@@ -1,0 +1,62 @@
+.ToDo {
+  width: 480px;
+  padding: 10px;
+  background: #5b0cff;
+
+  border-radius: 10px;
+
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 24px;
+  color: white;
+}
+
+@media screen and (max-width: 520px) {
+  .ToDo {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .ToDo {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .ToDo {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .ToDo {
+    width: 300px;
+  }
+}
+
+.text {
+  width: 80%;
+
+  word-wrap: break-word;
+  word-break: break-all;
+
+  cursor: pointer;
+}
+
+.deleteButton {
+  width: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
